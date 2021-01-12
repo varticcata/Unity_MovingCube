@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveCube : MonoBehaviour
 {
     float speed = 10;
-    [SerializeField] float verticalInput;
+    float verticalInput;
     float horizontalInput;
     Rigidbody cubeRb;
 
